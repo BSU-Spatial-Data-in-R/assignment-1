@@ -33,10 +33,14 @@ You'll need to accept the link to access the questions.
 
 ### Reading, identifying, and manipulating data
 
+8. 
 ### Using the helpfiles to understand what R expects
 
 ### Using pseudocode and building custom functions
 
 ### Finding help
-
+8. Run xxx at the R prompt. What error does this produce? What does this error typically mean? Provide 3 sources (weblinks are fine) that helped you diagnose this error. Provide code that fixes (i.e., results in the expected behavior without errors or warnings) the error.
+9. What are the key elements of a "good" question when trying to get help from online sources like StackOverflow.
+10. Imagine you are trying to xxx, but yyy keeps happening. Create a reproducible example that would allow others to reproduce the problem you are having and describes what you'd like to have happen if the code was working.
+11. 
 ### Rendering a complete document
