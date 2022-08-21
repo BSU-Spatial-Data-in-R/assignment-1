@@ -28,3 +28,15 @@ You'll need to accept the link to access the questions.
 5. Answer the questions making sure save and commit at least 4 more times (having 5 commits is part of the assignment).
 
 6. Render the document to html (you should now have at least 3 files in the repository: Readme.md, assignment-1-xx.qmd, and assignment-1-xx.html). Commit these changes and push them to the repository on GitHub. You should see the files there when you go to github.com.
+
+## The assignement
+
+### Reading, identifying, and manipulating data
+
+### Using the helpfiles to understand what R expects
+
+### Using pseudocode and building custom functions
+
+### Finding help
+
+### Rendering a complete document
