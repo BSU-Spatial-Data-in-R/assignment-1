@@ -72,19 +72,42 @@ Between the introductory readings and the little bit of practice in the first pa
 
 18. Now use `read_table()` to read in the `smoking.txt` dataset. What is different? After looking at the helpfile for `read.table`, how might you adjust the code you used in #17 so that the two functions produce the same objects?
 
-19. Use the tidyverse to read in the `smoking.txt` file, create a new column called rate whose value is mortality/smoking, and assign it to a signal object. `(hint: you'll need to use a pipe)`
+19. Use the `tidyverse` to read in the `smoking.txt` file, create a new column called rate whose value is mortality/smoking, and a column for country where you assign "US", "CAN", or "MEX" to each observation, and assign it to a single object. `(hint: you'll need to use a pipe and mutate; rep can help you with the country column)`
 
-20.
+20. Take the dataframe you created in #19 and subset it so that it only contains entries from the US and the rate value that you just calculated
 
+21. Now let's use a similar approach to what you did in #19 and read in the data, create the country and rate columns, group it by country, and create columns that provide the mean, min, and max for smoking, mortality and rate for each country. (`hint:` you'll need summarize`)
 
 
 ### Using the helpfiles to understand what R expects
 
+22. Examine the helpfile for `read_table`. What are the arguments that it accepts? What are the defaults that are used when you don't supply values for the arguments?
+
+23. Look at the helpfile for `cumsum`. What does it return when you provide a vector of numbers? 
+
+24.  Look at the helpfile for `vector`. What are the primary functions for managing vector data in `R`?
+
+25.  Run `mean(c("a","b", "c"))` in your console. What does it return? What does the warning message mean? 
+
 ### Using pseudocode and building custom functions
 
+26. Imagine that you are trying to write a function that reads in all of the txt files in our `assignment01` directory, gives them a new column with the filename, and combines them into a single dataframe. Write out the psuedocode that describes each step that the function should take, what you expect it to do, and why.
+
+27. Now that you have your pseudocode, try to add the appropriate `R` functions that correspond to each step.
+
+28. Finally, wrap the important parts in a funciton and use `lapply` to complete the task described in #26.
+
 ### Finding help
-8. Run xxx at the R prompt. What error does this produce? What does this error typically mean? Provide 3 sources (weblinks are fine) that helped you diagnose this error. Provide code that fixes (i.e., results in the expected behavior without errors or warnings) the error.
-9. What are the key elements of a "good" question when trying to get help from online sources like StackOverflow.
-10. Imagine you are trying to xxx, but yyy keeps happening. Create a reproducible example that would allow others to reproduce the problem you are having and describes what you'd like to have happen if the code was working.
-11. 
+29. Run the following code the R prompt. What error does this produce? What does this error typically mean? Provide 3 sources (weblinks are fine) that helped you diagnose this error. Provide code that fixes (i.e., results in the expected behavior without errors or warnings) the error.
+```
+testlist <- c(1,2,3)
+testlist$s
+```
+
+30. What are the key elements of a "good" question when trying to get help from online sources like StackOverflow.
+
+31. Try to combine the `TemoraBR.CSV` and `prawnGR.CSV` datasets into a single dataframe (ignore the fact that these datasets reflect slightly different things). What error do you get? Create a reproducible example that would allow others to reproduce the problem you are having and describes what you'd like to have happen if the code was working. 
+
 ### Rendering a complete document
+
+Once you've gotten all of the answers and code chunks to work, hit the "Render" button and push your complet qmd and html documents to your assignment repo.
