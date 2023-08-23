@@ -27,5 +27,6 @@ The first part of the course was designed to introduce some of the foundations o
 
 1. How does geographic analysis fit into your goals for your research? Given our discussion of the aims and limitations of geographic analysis, are there particular issues that you would like to know more about or guard against?
 2. What are the primary components that describe spatial data?
-3. Find two maps of the same area in different projections? How does the projection affect your perception of the data being displayed?
-4. Read in the 
+3. What is the coordinate reference system and why is it important
+4. Find two maps of the same area in different projections? How does the projection affect your perception of the data being displayed?
+5. Read in the `cejst.shp` file in the `assignment01` folder. How many attributes describe each object? How many unique geometries are there? What is the coordinate reference system?
